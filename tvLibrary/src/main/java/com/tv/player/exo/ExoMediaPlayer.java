@@ -63,6 +63,7 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
                 mTrackSelector == null ? mTrackSelector = new DefaultTrackSelector(mAppContext) : mTrackSelector,
                 mLoadControl == null ? mLoadControl = new DefaultLoadControl() : mLoadControl,
                 DefaultBandwidthMeter.getSingletonInstance(mAppContext),
+                Util.getLooper(),
                 new AnalyticsCollector(Clock.DEFAULT),
                 /* useLazyPreparation= */ true,
                 Clock.DEFAULT)
@@ -136,6 +137,7 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
     }
 
     private MediaSourceEventListener mMediaSourceEventListener = new MediaSourceEventListener() {
+        @Override
         public void onReadingStarted(int windowIndex, MediaSource.MediaPeriodId mediaPeriodId) {
             if (mPlayerEventListener != null && mIsPreparing) {
                 mPlayerEventListener.onPrepared();
