@@ -1,5 +1,5 @@
 ext {
-    exo_player2 = '2.11.8'
+    exo_player2 = '2.12.0'
     //android 开发版本
     android = [
             compileSdkVersion: 29,
