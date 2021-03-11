@@ -46,7 +46,7 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
     private boolean mIsPreparing;
     private boolean mIsBuffering;
 
-    private LoadControl mLoadControl;
+    
     private RenderersFactory mRenderersFactory;
     private TrackSelector mTrackSelector;
 
@@ -61,13 +61,12 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
                 mAppContext,
                 mRenderersFactory == null ? mRenderersFactory = new DefaultRenderersFactory(mAppContext) : mRenderersFactory,
                 mTrackSelector == null ? mTrackSelector = new DefaultTrackSelector(mAppContext) : mTrackSelector,
-                mLoadControl == null ? mLoadControl = new LdDefaultLoadControl() : mLoadControl,
                 DefaultBandwidthMeter.getSingletonInstance(mAppContext),
                 Util.getLooper(),
                 new AnalyticsCollector(Clock.DEFAULT),
                 /* useLazyPreparation= */ true,
                 Clock.DEFAULT)
-                .setLoadControl(mloadControl).build();
+                .build();
         setOptions();
 
         //播放器日志
@@ -87,9 +86,7 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
         mRenderersFactory = renderersFactory;
     }
 
-    public void setLoadControl(LoadControl loadControl) {
-        mLoadControl = loadControl;
-    }
+    
 
     @Override
     public void setDataSource(String path, Map<String, String> headers) {
