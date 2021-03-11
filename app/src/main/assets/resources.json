@@ -2,13 +2,13 @@
   {
     "id": 0,
     "name": "最大资源",
-    "api": "http://www.zdziyuan.com/inc/api.php",
+    "api": "http://api.wokuzy.com/api/xml/wokum3u8",
     "download": "http://www.zdziyuan.com/inc/apidown.php"
   },
   {
     "id": 1,
     "name": "OK资源",
-    "api": "http://cj.okzy.tv/inc/api.php",
+    "api": "https://m3u8.apibdzy.com/api.php/provide/vod/at/xml",
     "download": "http://cj.okzy.tv/inc/apidown.php"
   },
   {
