@@ -108,12 +108,12 @@ public class App extends MultiDexApplication {
          * 开发者如果担心sdk初始化影响app启动速度，可以设置为false
          * 在后面某个时刻手动调用
          */
-        Beta.autoInit = true;
+        Beta.autoInit = false;
         /**
          * true表示初始化时自动检查升级.
          * false表示不会自动检查升级，需要手动调用Beta.checkUpgrade()方法
          */
-        Beta.autoCheckUpgrade = true;
+        Beta.autoCheckUpgrade = false;
         /**
          * 设置升级周期为60s（默认检查周期为0s），60s内SDK不重复向后天请求策略.
          */
@@ -126,7 +126,7 @@ public class App extends MultiDexApplication {
         /**
          * wifi下自动下载
          */
-        Beta.autoDownloadOnWifi = true;
+        Beta.autoDownloadOnWifi = false;
         /**
          * 是否显示弹窗apk信息（默认弹窗）
          */
