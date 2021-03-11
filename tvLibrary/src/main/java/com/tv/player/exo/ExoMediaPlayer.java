@@ -46,7 +46,7 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
     private boolean mIsPreparing;
     private boolean mIsBuffering;
 
-    
+    private LoadControl mLoadControl;
     private RenderersFactory mRenderersFactory;
     private TrackSelector mTrackSelector;
 
