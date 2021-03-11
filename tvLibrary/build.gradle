@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.versions.versionCode
+        versionName rootProject.ext.versions.versionName
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api fileTree(dir: "libs", include: ["*.jar"])
+    api rootProject.ext.dependencies['appcompat']
+    api rootProject.ext.dependencies['lifecycle']
+    api rootProject.ext.dependencies['recyclerview']
+    api rootProject.ext.dependencies['material']
+    api rootProject.ext.dependencies['room-runtime']
+    api rootProject.ext.dependencies['room-rxjava2']
+    api rootProject.ext.dependencies['multidex']
+    api rootProject.ext.dependencies['okhttp']
+    api rootProject.ext.dependencies['okio']
+    api rootProject.ext.dependencies['rxandroid']
+    api rootProject.ext.dependencies['BaseRecyclerViewAdapterHelper']
+    api rootProject.ext.dependencies['loadsir']
+    api rootProject.ext.dependencies['picasso']
+    api rootProject.ext.dependencies['gson']
+    api rootProject.ext.dependencies['autosize']
+    api rootProject.ext.dependencies['refreshlayout']
+    api rootProject.ext.dependencies['eventbus']
+    api rootProject.ext.dependencies['bugly']
+    api rootProject.ext.dependencies['ijkplayer']
+    api rootProject.ext.dependencies['exoplayer-core']
+    api rootProject.ext.dependencies['exoplayer-dash']
+    api rootProject.ext.dependencies['exoplayer-hls']
+    api rootProject.ext.dependencies['exoplayer-smoothstreaming']
+    api rootProject.ext.dependencies['extension-rtmp']
+    api rootProject.ext.dependencies['hawk']
+    api(rootProject.ext.dependencies['xstream']) {
+        exclude group: 'xmlpull', module: 'xmlpull'
+    }
+}

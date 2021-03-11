@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/topLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="60pt"
+            android:paddingTop="40pt"
+            android:paddingRight="60pt">
+
+            <ImageView
+                android:id="@+id/ivThumb"
+                android:layout_width="224pt"
+                android:layout_height="315pt"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="315pt"
+                android:layout_marginLeft="20pt"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="24pt" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5pt"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvYear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_CCFFFFFF"
+                        android:textSize="18pt" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:layout_marginRight="5pt"
+                        android:text="丨"
+                        android:textColor="@color/color_CCFFFFFF"
+                        android:textSize="18pt" />
+
+                    <TextView
+                        android:id="@+id/tvArea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_CCFFFFFF"
+                        android:textSize="18pt" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:layout_marginRight="5pt"
+                        android:text="丨"
+                        android:textColor="@color/color_CCFFFFFF"
+                        android:textSize="18pt" />
+
+                    <TextView
+                        android:id="@+id/tvLang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_CCFFFFFF"
+                        android:textSize="18pt" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:layout_marginRight="5pt"
+                        android:text="丨"
+                        android:textColor="@color/color_CCFFFFFF"
+                        android:textSize="18pt" />
+
+                    <TextView
+                        android:id="@+id/tvType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_CCFFFFFF"
+                        android:textSize="18pt" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvActor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5pt"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/color_CCFFFFFF"
+                    android:textSize="18pt" />
+
+                <TextView
+                    android:id="@+id/tvDirector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5pt"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/color_CCFFFFFF"
+                    android:textSize="18pt" />
+
+                <TextView
+                    android:id="@+id/tvDes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5pt"
+                    android:ellipsize="end"
+                    android:lineSpacingMultiplier="1.2"
+                    android:maxLines="5"
+                    android:textColor="@color/color_CCFFFFFF"
+                    android:textSize="18pt" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="0pt"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvPlay"
+                    android:layout_width="120pt"
+                    android:layout_height="44pt"
+                    android:background="@drawable/detail_paly_focus"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
+                    android:text="立即播放"
+                    android:textColor="@android:color/white"
+                    android:textSize="20pt" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.tv.leanback.VerticalGridView
+            android:id="@+id/mGridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60pt"
+            android:layout_marginTop="20pt"
+            android:layout_marginRight="60pt"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingBottom="30pt" />
+    </LinearLayout>
+</FrameLayout>

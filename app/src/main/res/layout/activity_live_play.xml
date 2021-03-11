@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.pj567.movie.widget.LivePlayView
+        android:id="@+id/mVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/mProgressBar"
+        android:layout_width="60pt"
+        android:layout_height="60pt"
+        android:layout_gravity="center"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@drawable/data_loading"
+        android:indeterminateOnly="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivLive"
+        android:layout_width="60pt"
+        android:layout_height="60pt"
+        android:layout_gravity="center"
+        android:src="@drawable/live_state"
+        android:visibility="invisible" />
+
+    <com.tv.leanback.VerticalGridView
+        android:id="@+id/mGridView"
+        android:layout_width="220pt"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="-220pt"
+        android:background="@color/color_66000000"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingLeft="10pt"
+        android:paddingTop="20pt"
+        android:paddingRight="10pt"
+        android:paddingBottom="20pt"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvChannel"
+        android:layout_width="100pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="30pt"
+        android:layout_marginRight="60pt"
+        android:background="@drawable/channel_num_shape"
+        android:gravity="center"
+        android:paddingTop="5pt"
+        android:paddingBottom="5pt"
+        android:textColor="@android:color/white"
+        android:textSize="36pt"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="60pt"
+        android:layout_marginBottom="30pt"
+        android:background="@drawable/channel_num_shape"
+        android:gravity="center"
+        android:paddingLeft="10pt"
+        android:paddingTop="5pt"
+        android:paddingRight="10pt"
+        android:paddingBottom="5pt"
+        android:text="按左右键显示隐藏频道列表"
+        android:textColor="@android:color/white"
+        android:textSize="24pt"
+        android:textStyle="bold" />
+</FrameLayout>

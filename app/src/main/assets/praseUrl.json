@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "praseName": "主用线路",
+    "praseUrl": "https://www.playm3u8.cn/jiexi.php?url="
+  },
+  {
+    "id": 2,
+    "praseName": "备用线路1",
+    "praseUrl": "https://jx.f41.cc/?url="
+  },
+  {
+    "id": 3,
+    "praseName": "备用线路2",
+    "praseUrl": "https://www.ckmov.vip/api.php?url="
+  },
+  {
+    "id": 4,
+    "praseName": "备用线路3",
+    "praseUrl": "https://jx.618g.com/?url="
+  },
+  {
+    "id": 5,
+    "praseName": "备用线路4",
+    "praseUrl": "https://www.1717yun.com/jx/ty.php?url="
+  },
+  {
+    "id": 6,
+    "praseName": "备用线路5",
+    "praseUrl": "https://www.xymav.com/?url="
+  },
+  {
+    "id": 7,
+    "praseName": "备用线路6",
+    "praseUrl": "http://jqaaa.com/jx.php?url="
+  },
+  {
+    "id": 8,
+    "praseName": "备用线路7",
+    "praseUrl": "https://jx.mw0.cc/?url="
+  },
+  {
+    "id": 9,
+    "praseName": "备用线路8",
+    "praseUrl": "https://www.33tn.cn/?url="
+  },
+  {
+    "id": 10,
+    "praseName": "备用线路9",
+    "praseUrl": "https://okjx.cc/?url="
+  },
+  {
+    "id": 11,
+    "praseName": "备用线路10",
+    "praseUrl": "https://www.administratorw.com/index/qqvod.php?url="
+  },
+  {
+    "id": 12,
+    "praseName": "备用线路11",
+    "praseUrl": "https://www.nxflv.com/?url="
+  },
+  {
+    "id": 13,
+    "praseName": "备用线路12",
+    "praseUrl": "https://www.qianyicp.com/jiexi/index.php?url="
+  },
+  {
+    "id": 14,
+    "praseName": "备用线路13",
+    "praseUrl": "http://v.renrenfabu.com/jiexi.php?url="
+  },
+  {
+    "id": 15,
+    "praseName": "备用线路14",
+    "praseUrl": "https://www.administratorw.com/video.php?url="
+  },
+  {
+    "id": 16,
+    "praseName": "备用线路15",
+    "praseUrl": "https://www.administratorw.com/admin.php?url="
+  }
+]

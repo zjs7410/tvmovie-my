@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30pt">
+
+    <TextView
+        android:id="@+id/tvLive"
+        android:layout_width="228pt"
+        android:layout_height="228pt"
+        android:background="@drawable/user_focus"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text="直播"
+        android:textColor="@color/color_CCFFFFFF"
+        android:textSize="36pt" />
+
+    <TextView
+        android:id="@+id/tvSearch"
+        android:layout_width="228pt"
+        android:layout_height="228pt"
+        android:layout_marginLeft="248pt"
+        android:background="@drawable/user_focus"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text="搜索"
+        android:textColor="@color/color_CCFFFFFF"
+        android:textSize="36pt" />
+
+    <TextView
+        android:id="@+id/tvSetting"
+        android:layout_width="228pt"
+        android:layout_height="228pt"
+        android:layout_marginLeft="496pt"
+        android:background="@drawable/user_focus"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text="设置"
+        android:textColor="@color/color_CCFFFFFF"
+        android:textSize="36pt" />
+
+    <TextView
+        android:id="@+id/tvHistory"
+        android:layout_width="228pt"
+        android:layout_height="228pt"
+        android:layout_marginLeft="744pt"
+        android:background="@drawable/user_focus"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text="历史记录"
+        android:textColor="@color/color_CCFFFFFF"
+        android:textSize="36pt" />
+
+    <TextView
+        android:id="@+id/tvReward"
+        android:layout_width="228pt"
+        android:layout_height="228pt"
+        android:layout_marginLeft="992pt"
+        android:background="@drawable/user_focus"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text="打赏"
+        android:textColor="@color/color_CCFFFFFF"
+        android:textSize="36pt" />
+
+    <TextView
+        android:id="@+id/tvProjection"
+        android:layout_width="600pt"
+        android:layout_height="228pt"
+        android:layout_marginTop="258pt"
+        android:background="@drawable/user_focus"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text="远程搜索投屏"
+        android:textColor="@color/color_CCFFFFFF"
+        android:textSize="36pt" />
+
+    <TextView
+        android:layout_width="600pt"
+        android:layout_height="228pt"
+        android:layout_marginLeft="620pt"
+        android:layout_marginTop="258pt"
+        android:background="@drawable/user_focus"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:text="学习交流和意见反馈\n请加QQ群120421337"
+        android:textColor="@color/color_CCFFFFFF"
+        android:textSize="36pt" />
+</FrameLayout>

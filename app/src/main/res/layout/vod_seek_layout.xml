@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="1280pt"
+    android:layout_height="180pt">
+
+    <FrameLayout
+        android:id="@+id/seekInfoLayout"
+        android:layout_width="110pt"
+        android:layout_height="60pt"
+        android:layout_marginLeft="75pt"
+        android:layout_marginTop="20pt"
+        android:background="@drawable/vod_time">
+
+        <TextView
+            android:id="@+id/tvCurrentPosition"
+            android:layout_width="match_parent"
+            android:layout_height="48pt"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingLeft="10pt"
+            android:paddingRight="10pt"
+            android:textColor="@android:color/white"
+            android:textSize="18pt" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/playState"
+        android:layout_width="42pt"
+        android:layout_height="42pt"
+        android:layout_marginLeft="44pt"
+        android:layout_marginTop="73pt"
+        android:src="@drawable/vod_play" />
+
+    <com.tv.widget.VodSeekBar
+        android:id="@+id/mSeekBar"
+        android:layout_width="1000pt"
+        android:layout_height="20pt"
+        android:layout_marginLeft="130pt"
+        android:layout_marginTop="85pt"
+        android:paddingBottom="2pt"
+        android:paddingTop="2pt"
+        app:max="140" />
+
+    <TextView
+        android:id="@+id/tvDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1160pt"
+        android:layout_marginTop="80pt"
+        android:textColor="@android:color/white"
+        android:textSize="24pt" />
+
+    <TextView
+        android:id="@+id/vodName"
+        android:layout_width="1026pt"
+        android:layout_height="36pt"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="30pt"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="20pt" />
+</FrameLayout>

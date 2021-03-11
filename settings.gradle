@@ -1,0 +1,3 @@
+include ':tvLibrary'
+include ':app'
+rootProject.name = "TVMovie"

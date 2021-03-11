@@ -1,0 +1,146 @@
+[
+  {
+    "id": 0,
+    "name": "最大资源",
+    "api": "http://www.zdziyuan.com/inc/api.php",
+    "download": "http://www.zdziyuan.com/inc/apidown.php"
+  },
+  {
+    "id": 1,
+    "name": "OK资源",
+    "api": "http://cj.okzy.tv/inc/api.php",
+    "download": "http://cj.okzy.tv/inc/apidown.php"
+  },
+  {
+    "id": 2,
+    "name": "酷云资源",
+    "api": "http://caiji.kuyun98.com/inc/ldg_api.php",
+    "download": "http://caiji.kuyun98.com/inc/apidown.php"
+  },
+  {
+    "id": 3,
+    "name": "速播资源",
+    "api": "https://www.subo988.com/inc/api.php",
+    "download": ""
+  },
+  {
+    "id": 4,
+    "name": "恐怖鸭资源",
+    "api": "https://ya.kongbuya.com/api.php/provide/vod/at/xml",
+    "download": ""
+  },
+  {
+    "id": 5,
+    "name": "最新资源",
+    "api": "http://api.zuixinapi.com/inc/api.php",
+    "download": ""
+  },
+  {
+    "id": 6,
+    "name": "酷播资源",
+    "api": "http://api.kbzyapi.com/inc/api.php",
+    "download": ""
+  },
+  {
+    "id": 8,
+    "name": "123资源",
+    "api": "http://cj.123ku2.com:12315/inc/api.php",
+    "download": ""
+  },
+  {
+    "id": 9,
+    "name": "88资源",
+    "api": "http://www.88zyw.net/inc/api.php",
+    "download": ""
+  },
+  {
+    "id": 10,
+    "name": "麻花资源",
+    "api": "https://www.mhapi123.com/inc/api.php",
+    "download": ""
+  },
+  {
+    "id": 12,
+    "name": "1186资源",
+    "api": "http://cj.1886zy.co/inc/api.php",
+    "download": ""
+  },
+  {
+    "id": 15,
+    "name": "奇领yy608",
+    "api": "http://yyid6080.cn/api.php/provide/vod/at/xml",
+    "download": ""
+  },
+  {
+    "id": 20,
+    "name": "快播资源",
+    "api": "http://www.kuaibozy.com/api.php/provide/vod/at/xml",
+    "download": ""
+  },
+  {
+    "id": 22,
+    "name": "天空资源",
+    "api": "http://api.tiankongapi.com/api.php/provide/vod/at/xml",
+    "download": ""
+  },
+  {
+    "id": 26,
+    "name": "小收影视",
+    "api": "http://www.p4kan.com/inc/api.php",
+    "download": ""
+  },
+  {
+    "id": 28,
+    "name": "蚂蚁BT",
+    "api": "https://www.mayipbt.cc/api.php/provide/vod/at/xml",
+    "download": ""
+  },
+  {
+    "id": 29,
+    "name": "新奇遇电影",
+    "api": "https://www.newqiyu.com/api.php/provide/vod/at/xml",
+    "download": ""
+  },
+  {
+    "id": 30,
+    "name": "太初电影",
+    "api": "https://www.tcmove.com/api.php/provide/vod/at/xml",
+    "download": ""
+  },
+  {
+    "id": 35,
+    "name": "免费影院",
+    "api": "http://www.ruiuri.com/api.php/provide/vod/at/xml",
+    "download": ""
+  },
+  {
+    "id": 37,
+    "name": "PZ影视",
+    "api": "https://puz.pub/api.php/provide/vod/at/xml",
+    "download": ""
+  },
+  {
+    "id": 39,
+    "name": "ADC电影网",
+    "api": "https://www.adcmove.com/api.php/provide/vod/at/xml",
+    "download": ""
+  },
+  {
+    "id": 40,
+    "name": "追剧吧",
+    "api": "http://www.huaxiab.com/api.php/provide/vod/at/xml",
+    "download": ""
+  },
+  {
+    "id": 42,
+    "name": "聚合资源",
+    "api": "https://cj.cbi88.com/inc/api_juhem3u8.php",
+    "download": ""
+  },
+  {
+    "id": 43,
+    "name": "八戒资源",
+    "api": "http://cj.bajiecaiji.com/inc/api.php",
+    "download": ""
+  }
+]

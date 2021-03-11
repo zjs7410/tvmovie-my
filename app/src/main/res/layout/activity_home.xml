@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60pt"
+        android:layout_marginTop="30pt"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="60pt"
+        android:paddingRight="60pt">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="120pt"
+            android:layout_height="44pt"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="TV电影"
+            android:textColor="@android:color/white"
+            android:textSize="32pt" />
+
+        <com.tv.widget.MarqueeTextView
+            android:layout_width="750pt"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20pt"
+            android:gravity="center_vertical"
+            android:text="声明：本软件纯属于个人学习开发，数据来源第三方接口，视频中广告均为源站行为，与本App无关"
+            android:textColor="@android:color/white"
+            android:textSize="28pt" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="28pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.tv.leanback.HorizontalGridView
+            android:id="@+id/mGridView"
+            android:layout_width="match_parent"
+            android:layout_height="60pt"
+            android:layout_marginTop="90pt"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingLeft="30pt"
+            android:paddingRight="30pt" />
+
+        <com.tv.widget.NoScrollViewPager
+            android:id="@+id/mViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</FrameLayout>
