@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "最大资源",
-    "api": "https://m3u8.apibdzy.com/api.php/provide/vod/at/xml",
+    "api": "http://ok.888hyk.com/api.php/provide/vod/at/xml",
     "download": "http://www.zdziyuan.com/inc/apidown.php"
   },
   {
