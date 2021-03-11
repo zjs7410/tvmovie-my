@@ -137,7 +137,6 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
     }
 
     private MediaSourceEventListener mMediaSourceEventListener = new MediaSourceEventListener() {
-        @Override
         public void onReadingStarted(int windowIndex, MediaSource.MediaPeriodId mediaPeriodId) {
             if (mPlayerEventListener != null && mIsPreparing) {
                 mPlayerEventListener.onPrepared();
