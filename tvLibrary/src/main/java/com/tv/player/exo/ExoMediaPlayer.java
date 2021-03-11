@@ -57,7 +57,7 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
 
     @Override
     public void initPlayer() {
-        mLoadControl loadControl = new LdDefaultLoadControl();
+        LoadControl loadControl = new LdDefaultLoadControl();
         mInternalPlayer = new SimpleExoPlayer.Builder(
                 mAppContext,
                 mRenderersFactory == null ? mRenderersFactory = new DefaultRenderersFactory(mAppContext) : mRenderersFactory,
@@ -87,9 +87,7 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
         mRenderersFactory = renderersFactory;
     }
 
-    public void setLoadControl(LoadControl loadControl) {
-        mLoadControl = loadControl;
-    }
+    
 
     @Override
     public void setDataSource(String path, Map<String, String> headers) {
