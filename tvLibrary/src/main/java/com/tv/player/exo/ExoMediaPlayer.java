@@ -57,17 +57,9 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
 
     @Override
     public void initPlayer() {
+        mTrackSelector = new DefaultTrackSelector();
         LoadControl loadControl = new LdDefaultLoadControl();
-        mInternalPlayer = new SimpleExoPlayer.Builder(
-                mAppContext,
-                mRenderersFactory == null ? mRenderersFactory = new DefaultRenderersFactory(mAppContext) : mRenderersFactory,
-                mTrackSelector == null ? mTrackSelector = new DefaultTrackSelector(mAppContext) : mTrackSelector,
-                loadControl = new LdDefaultLoadControl(),
-                DefaultBandwidthMeter.getSingletonInstance(mAppContext),
-                Util.getLooper(),
-                new AnalyticsCollector(Clock.DEFAULT),
-                /* useLazyPreparation= */ true,
-                Clock.DEFAULT).setLoadControl(loadControl).build();
+        mInternalPlayer = new SimpleExoPlayer.Builder(mAppContex).setTrackSelector(mTrackSelector).setLoadControl(loadControl).build();
         setOptions();
 
         //播放器日志
