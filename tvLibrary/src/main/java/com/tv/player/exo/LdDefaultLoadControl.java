@@ -48,7 +48,7 @@ public class LdDefaultLoadControl implements LoadControl {
    * The default duration of media that must be buffered for playback to start or resume following a
    * user action such as a seek, in milliseconds.
    */
-  public static final int DEFAULT_BUFFER_FOR_PLAYBACK_MS = 15000;
+  public static final int DEFAULT_BUFFER_FOR_PLAYBACK_MS = 2000;
 
   /**
    * The default duration of media that must be buffered for playback to resume after a rebuffer, in
