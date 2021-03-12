@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "最大资源",
-    "api": "https://ya.kongbuya.com/api.php/provide/vod/at/xml",
+    "api": "https://api.apibdzy.com/api.php/provide/vod/at/xml",
     "download": "http://www.zdziyuan.com/inc/apidown.php"
   },
   {
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "恐怖鸭资源",
-    "api": "http://c.bukai.men/api.php/provide/vod/at/xml",
+    "api": "https://ya.kongbuya.com/api.php/provide/vod/at/xml",
     "download": ""
   },
   {
