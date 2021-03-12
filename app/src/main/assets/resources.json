@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "最大资源",
-    "api": "https://api.apibdzy.com/api.php/provide/vod/at/xml",
+    "api": "http://c.bukai.men/api.php/provide/vod/at/xml",
     "download": "http://www.zdziyuan.com/inc/apidown.php"
   },
   {
