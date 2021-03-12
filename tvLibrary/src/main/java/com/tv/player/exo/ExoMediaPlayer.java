@@ -68,7 +68,7 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
                 Util.getLooper(),
                 new AnalyticsCollector(Clock.DEFAULT),
                 /* useLazyPreparation= */ true,
-                Clock.DEFAULT).setLoadControl(loadControl).build();).setLoadControl(loadControl).build();
+                Clock.DEFAULT).setLoadControl(loadControl).build();
         setOptions();
 
         //播放器日志
