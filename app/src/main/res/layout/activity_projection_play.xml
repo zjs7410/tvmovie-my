@@ -4,10 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.tencent.smtt.sdk.WebView
-        android:id="@+id/mX5WebView"
-        android:layout_width="1dp"
-        android:layout_height="1dp" />
+    
 
     <com.tv.player.VideoView
         android:id="@+id/mVideoView"
