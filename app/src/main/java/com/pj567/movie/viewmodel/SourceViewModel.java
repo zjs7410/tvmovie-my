@@ -68,7 +68,6 @@ public class SourceViewModel extends ViewModel {
                 .tag(ApiConfig.get().getBaseUrl())
                 .params("ac", "videolist")
                 .params("t", id)
-                .params("h", "504")
                 .params("pg", page)
                 .execute(new AbsCallback<String>() {
 
